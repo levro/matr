@@ -34,5 +34,21 @@ public class matr {
 			}
 		System.out.println("");
 		}
+		
+		System.out.println("");
+		System.out.println("----SUM-----");
+		int [][] sum;
+		sum = new int [n][n];
+		for (int i=0; i<n; i++){
+			for (int j=0; j<n; j++){
+				sum[i][j] = matr[i][j] + mart[i][j];
+				if (sum[i][j]<10)
+					System.out.print(" " + sum[i][j] + " ");
+				else
+					System.out.print(sum[i][j] + " ");
+			}
+		System.out.println("");
+		}
+	
 	}
 }
