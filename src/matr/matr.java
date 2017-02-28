@@ -3,13 +3,14 @@ package matr;
 public class matr {
 
 	public static void main(String[] args) {
-		int n = 6;
+		int n = 4;
+		int m = 49;
 		System.out.println("----MATR----");
 		int [][] matr;
 		matr = new int [n][n];
 		for (int i=0; i<n; i++){
 			for (int j=0; j<n; j++){
-				matr[i][j] = (int) (Math.random()*99);
+				matr[i][j] = (int) (Math.random()*m);
 				if (matr[i][j]<10)
 					System.out.print(" " + matr[i][j] + " ");
 				else
@@ -25,7 +26,7 @@ public class matr {
 		mart = new int [n][n];
 		for (int i=0; i<n; i++){
 			for (int j=0; j<n; j++){
-				mart[i][j] = (int) (Math.random()*99);
+				mart[i][j] = (int) (Math.random()*m);
 				if (mart[i][j]<10)
 					System.out.print(" " + mart[i][j] + " ");
 				else
