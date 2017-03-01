@@ -50,5 +50,20 @@ public class matr {
 		System.out.println("");
 		}
 	
+		System.out.println("");
+		System.out.println("----MUL-----");
+		int [][] mul;
+		mul = new int [n][n];
+		for (int i=0; i<n; i++){
+			for (int j=0; j<n; j++){
+				mul[i][j] = matr[i][j] + mart[i][j];
+				if (mul[i][j]<10)
+					System.out.print(" " + mul[i][j] + " ");
+				else
+					System.out.print(mul[i][j] + " ");
+			}
+		System.out.println("");
+		}
+		
 	}
 }
